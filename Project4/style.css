@@ -101,3 +101,33 @@ body {
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
+.fourth{
+  display: flex;
+}
+.first-div{
+  background-color: green;
+  height: 20rem;
+  width: 50%;
+  color: white;
+  text-align: left;
+  padding: 100px;
+}
+.second-div{
+  background-color: red;
+  height: 20rem;
+  width: 50%;
+  color: aliceblue;
+  text-align: left;
+  padding: 100px;
+}
+
+.text h2{
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.text p{
+    font-weight: 400;
+    text-align: cover;
+}
+
