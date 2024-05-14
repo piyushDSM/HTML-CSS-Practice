@@ -131,3 +131,17 @@ body {
     text-align: cover;
 }
 
+.footer-box {
+  height: 8rem !important;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-box h2 {
+  font-size: 4rem;
+  font-weight: 100;
+}
+
