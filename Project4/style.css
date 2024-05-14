@@ -101,10 +101,10 @@ body {
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
-.fourth{
+.fourth {
   display: flex;
 }
-.first-div{
+.first-div {
   background-color: green;
   height: 20rem;
   width: 50%;
@@ -112,7 +112,7 @@ body {
   text-align: left;
   padding: 100px;
 }
-.second-div{
+.second-div {
   background-color: red;
   height: 20rem;
   width: 50%;
@@ -121,14 +121,16 @@ body {
   padding: 100px;
 }
 
-.text h2{
+.text h2 {
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.text p{
-    font-weight: 400;
-    text-align: cover;
+.text p {
+  font-weight: 400;
+  text-align: cover;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
 }
 
 .footer-box {
@@ -144,4 +146,3 @@ body {
   font-size: 4rem;
   font-weight: 100;
 }
-
