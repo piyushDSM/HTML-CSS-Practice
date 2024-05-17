@@ -11,3 +11,12 @@ body {
   font-size: 1.4;
   font-weight: 100;
 }
+
+.nav_container{
+  display: flex;
+  height: 80px;
+  background-color: blanchedalmond;
+  align-items: center;
+  justify-content: space-around;
+}
+
