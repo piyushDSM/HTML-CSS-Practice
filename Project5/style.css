@@ -15,7 +15,6 @@ body {
 .nav_container {
   display: flex;
   height: 80px;
-  background-color: blanchedalmond;
   align-items: center;
   justify-content: space-around;
 }
