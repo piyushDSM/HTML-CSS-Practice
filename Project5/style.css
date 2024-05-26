@@ -18,3 +18,8 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+
+nav{
+  box-shadow: 2px 2px 2px gray;
+  position: sticky;
+}
