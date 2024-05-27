@@ -9,7 +9,7 @@ html,
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.4;
-  font-weight: 100;
+  font-weight: 500;
 }
 
 .nav_container {
@@ -26,4 +26,14 @@ nav{
 
 .bar{
   font-size: 20px
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero{
+  display: flex;
+  margin-top: 10rem;
 }
