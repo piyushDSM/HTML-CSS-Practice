@@ -11,12 +11,23 @@ body {
   font-size: 1.4;
   font-weight: 500;
 }
+button{
+  padding: 10px 15px;
+  border: none;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
 
+button:hover{
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
 .nav_container {
   display: flex;
   height: 80px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  
 }
 
 nav{
@@ -35,5 +46,102 @@ nav{
 
 .hero{
   display: flex;
+  gap: 100px;
   margin-top: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tag{
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  align-self: flex-start;
+}
+
+.hero_content h1{
+  font-size: 70px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.exlpore_btn{
+  background-color: #ffc066;
+  align-self: flex-start;
+}
+
+.section-two{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.features{
+  padding: 20px;
+}
+
+.features:hover{
+  transition: 0.2s ease-in-out;
+  box-shadow: 5px 5px 5px rgba(1,1,1,0.5);
+  
+}
+
+
+.pic_images{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.divider{
+  border: 2px solid gray;
+  margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 786px){
+  .hero{
+    flex-direction: column;
+  }
+  .hero_image{
+    display: flex;
+    justify-content: center;
+  }
+  .hero_image img{
+    width: 80%;
+  }
+  .hero_content{
+    gap: 20px;
+    padding: 10px;
+  }
+  .hero_content h1{
+    font-size: 40px;
+  }
+
+  .section-two{
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: left;
+    padding-left: 20px;
+    gap: 30px;
+  }
+  
 }
