@@ -11,14 +11,14 @@ body {
   font-size: 1.4;
   font-weight: 500;
 }
-button{
+button {
   padding: 10px 15px;
   border: none;
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   opacity: 0.8;
   transition: 0.2s ease-in-out;
 }
@@ -27,24 +27,23 @@ button:hover{
   height: 80px;
   align-items: center;
   justify-content: space-evenly;
-  
 }
 
-nav{
+nav {
   box-shadow: 2px 2px 2px gray;
   position: sticky;
 }
 
-.bar{
-  font-size: 20px
+.bar {
+  font-size: 20px;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.hero{
+.hero {
   display: flex;
   gap: 100px;
   margin-top: 10rem;
@@ -52,102 +51,83 @@ nav{
   align-items: center;
 }
 
-.hero_content{
+.hero_content {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.tag{
+.tag {
   padding: 5px 10px;
   background-color: green;
   color: white;
   align-self: flex-start;
 }
 
-.hero_content h1{
+.hero_content h1 {
   font-size: 70px;
   line-height: 1.2;
   font-weight: 500;
 }
 
-.exlpore_btn{
+.exlpore_btn {
   background-color: #ffc066;
   align-self: flex-start;
 }
 
-.section-two{
+.section-two {
   display: flex;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
-.features{
+.features {
   padding: 20px;
 }
 
-.features:hover{
+.features:hover {
   transition: 0.2s ease-in-out;
-  box-shadow: 5px 5px 5px rgba(1,1,1,0.5);
-  
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
 }
 
-
-.pic_images{
+.pic_images {
   display: flex;
   gap: 20px;
   justify-content: center;
 }
 
-.divider{
+.divider {
   border: 1px solid gray;
   margin: 20px 0;
 }
 
-.menu .tag{
-  
+.menu .tag {
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 786px){
-  .hero{
+@media (max-width: 786px) {
+  .hero {
     flex-direction: column;
   }
-  .hero_image{
+  .hero_image {
     display: flex;
     justify-content: center;
   }
-  .hero_image img{
+  .hero_image img {
     width: 80%;
   }
-  .hero_content{
+  .hero_content {
     gap: 20px;
     padding: 10px;
   }
-  .hero_content h1{
+  .hero_content h1 {
     font-size: 40px;
   }
 
-  .section-two{
+  .section-two {
     flex-direction: column;
     margin-top: 50px;
     align-items: left;
     padding-left: 20px;
     gap: 30px;
   }
-  
 }
