@@ -95,14 +95,20 @@ nav{
 
 .pic_images{
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
 }
 
 .divider{
-  border: 2px solid gray;
+  border: 1px solid gray;
   margin: 20px 0;
 }
+
+.menu .tag{
+  
+}
+
+
 
 
 
