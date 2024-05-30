@@ -3,4 +3,4 @@
 <h3>Project 2 - Job Application Form(Responsive) </h3>
 <h3>Project 3 - Parallax Website </h3>
 <h3>Project 4 - Landing Page </h3>
-<h3>Project 5 - Working ON THIS </h3>
+<h3>Project 5 - Restaurant Website(Responsive) </h3>
