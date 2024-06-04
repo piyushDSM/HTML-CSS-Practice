@@ -35,6 +35,10 @@ a {
 
 header{
   background-color: var(--purple300);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5px);
 }
 
 nav {
@@ -58,4 +62,26 @@ nav ul li:hover{
   border-bottom: 2px solid white;
   transition: 0.2s ease-in;
 }
+.hero_section{
+  background-image: url(images/hero_image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
 
+.hero_section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero_section h1{
+  font-size: 85px;
+}
+.hero_section h3{
+  font-size: 32px;
+}
