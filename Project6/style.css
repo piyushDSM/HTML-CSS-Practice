@@ -19,3 +19,8 @@ body {
   --purple600: #dc0000;
   --nody: #f9f6ff;
 }
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
