@@ -8,4 +8,14 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  scroll-behavior: smooth;
+  line-height: 1.4;
+}
+:root{
+  --max-width: 1200px;
+  --purple500: #281154;
+  --purple300: #270082;
+  --purple600: #dc0000;
+  --nody: #f9f6ff;
 }
