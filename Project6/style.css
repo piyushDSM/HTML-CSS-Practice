@@ -99,6 +99,7 @@ nav ul li:hover {
 }
 
 .ipad-ipad-img{
+  margin-top: -400px;
   position: relative;
   top: 400px;
 }
