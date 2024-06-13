@@ -89,3 +89,16 @@ nav ul li:hover {
   padding-top: 50px;
   background-color: var(--purple500);
 }
+
+.music-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ipad-ipad-img{
+  position: relative;
+  top: 400px;
+}
