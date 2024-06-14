@@ -85,12 +85,12 @@ nav ul li:hover {
 .hero_section h3 {
   font-size: 32px;
 }
-.music-section{
+.music-section {
   padding-top: 50px;
   background-color: var(--purple500);
 }
 
-.music-section .container{
+.music-section .container {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -98,7 +98,7 @@ nav ul li:hover {
   align-items: center;
 }
 
-.ipad-ipad-img{
+.ipad-ipad-img {
   margin-top: -400px;
   position: relative;
   top: 400px;
