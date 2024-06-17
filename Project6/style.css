@@ -53,14 +53,14 @@ nav {
   font-size: 32px;
   font-weight: 700;
 }
-button{
+button {
   padding: 10px 15px;
   border: none;
   transition: 0.2s ease-in-out;
   color: white;
 }
 
-button:hover{
+button:hover {
   opacity: 0.8;
   transition: 0.2s ease-in-out;
 }
@@ -114,13 +114,13 @@ nav ul li:hover {
   top: 400px;
 }
 
-.primary-btn{
+.primary-btn {
   background-color: var(--purple600);
   border-radius: 5px;
   cursor: pointer;
 }
 
-.about-music{
+.about-music {
   padding-top: 400px;
   display: flex;
   flex-direction: column;
@@ -130,7 +130,7 @@ nav ul li:hover {
   margin-bottom: 50px;
 }
 
-.secondary-btn{
+.secondary-btn {
   color: white;
   background-color: #270082;
   border-radius: 5px;
