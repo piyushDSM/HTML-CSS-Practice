@@ -99,7 +99,14 @@ nav ul li:hover {
   padding-top: 50px;
   background-color: var(--purple500);
 }
-
+.music-section h2 {
+  color: white;
+}
+.music-section h4 {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
 .music-section .container {
   display: flex;
   flex-direction: column;
@@ -196,7 +203,7 @@ nav ul li:hover {
 }
 
 .gift-section {
-  scroll-margin: 120px;
+  scroll-margin: 150px;
 }
 footer li{
   list-style: none;
