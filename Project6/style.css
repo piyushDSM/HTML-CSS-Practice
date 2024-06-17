@@ -173,7 +173,7 @@ nav ul li:hover {
 }
 
 .footer-upper {
-  background-color: var(--purple600);
+  background-color: var(--purple500);
   padding: 20px;
 }
 .footer-upper .container {
@@ -188,7 +188,7 @@ nav ul li:hover {
   margin-bottom: 10px;
 }
 .footer-lower {
-  background-color: var(--purple300);
+  background-color: #270082;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -197,4 +197,7 @@ nav ul li:hover {
 
 .gift-section {
   scroll-margin: 120px;
+}
+footer li{
+  list-style: none;
 }
