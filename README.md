@@ -4,4 +4,4 @@
 <h3>Project 3 - Parallax Website </h3>
 <h3>Project 4 - Landing Page </h3>
 <h3>Project 5 - Restaurant Website(Responsive) </h3>
-<h3>Project 6 - Currently Working On This </h3>
+<h3>Project 6 - MUSIC website </h3>
