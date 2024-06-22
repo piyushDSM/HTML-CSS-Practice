@@ -25,8 +25,19 @@ header{
 }
 
 nav h1{
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 500;
     padding: 10px;
     border-bottom: 1px solid grey;
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+nav ul li{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    color: black;
 }
