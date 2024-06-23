@@ -1,43 +1,42 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html,body{
-    line-height: 1.4;
-    font-weight: 300;
-    scroll-behavior: smooth;
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  scroll-behavior: smooth;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-body{
-    display: flex;
+body {
+  display: flex;
 }
 
-header{
-    border: 1px solid grey;
-    height: 100vh;
-
+header {
+  border: 1px solid grey;
+  height: 100vh;
 }
 
-nav h1{
-    font-size: 25px;
-    font-weight: 500;
-    padding: 10px;
-    border-bottom: 1px solid grey;
+nav h1 {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px;
+  border-bottom: 1px solid grey;
 }
 
-nav ul{
-    list-style: none;
-
+nav ul {
+  list-style: none;
 }
 
-nav ul li{
-    border-bottom: 1px solid grey;
-    padding: 10px;
-    color: black;
+nav ul li {
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  color: black;
 }
