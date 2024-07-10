@@ -6,4 +6,4 @@
 <h3>Project 5 - Restaurant Website(Responsive) </h3>
 <h3>Project 6 - MUSIC website </h3>
 <h3>Project 7 - JavaScript Documentation </h3>
-<h3>Project 8 - Working On This </h3>
+<h3>Project 8 - Blog Website </h3>
