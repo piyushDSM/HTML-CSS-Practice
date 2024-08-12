@@ -71,3 +71,20 @@ nav li:hover {
   font-size: 2rem;
   font-weight: 700;
 }
+
+
+@media (max-width: 500px) {
+  html {
+    font-size: 32%;
+  }
+  #hero .container {
+    flex-direction: column;
+  }
+  .hero_image {
+    display: grid;
+    place-items: center;
+  }
+  #contact .container {
+    height: 50vh;
+  }
+}
