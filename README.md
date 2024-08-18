@@ -7,4 +7,4 @@
 <h3>Project 6 - MUSIC website </h3>
 <h3>Project 7 - JavaScript Documentation </h3>
 <h3>Project 8 - Blog Website </h3>
-<h3>Project 9 - Working on this </h3>
+<h3>Project 9 - Portfolio </h3>
