@@ -106,8 +106,8 @@ nav li:hover {
   font-size: 4rem;
   font-weight: bold;
 
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid orange; /* The typwriter cursor */
+  overflow: hidden; 
+  border-right: 0.15em solid orange; 
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */ /* Adjust as needed */
   animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
