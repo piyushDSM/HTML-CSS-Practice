@@ -106,10 +106,10 @@ nav li:hover {
   font-size: 4rem;
   font-weight: bold;
 
-  overflow: hidden; 
-  border-right: 0.15em solid orange; 
-  white-space: nowrap; 
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */ /* Adjust as needed */
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
   animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 @keyframes typing {
